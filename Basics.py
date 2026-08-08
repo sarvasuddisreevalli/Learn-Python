@@ -81,5 +81,15 @@ a = 1 # integer
 # with
 # yield
 
+# identifiers
+# identifiers can not be keyword
+# you can't start with a digit
+# 1a = 1 --> wrong
+# a1 = 1 --> works
+# you can't use special characters
+# first-name = 'siri' --> wrong using -,@,#
+# first_name = 'siri' --> works
+# _ = 'sreevalli' --> works
+
 #
 
