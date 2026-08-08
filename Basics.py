@@ -81,7 +81,7 @@ a = 1 # integer
 # with
 # yield
 
-# identifiers
+# identifiers :
 # identifiers can not be keyword
 # you can't start with a digit
 # 1a = 1 --> wrong
@@ -91,5 +91,13 @@ a = 1 # integer
 # first_name = 'siri' --> works
 # _ = 'sreevalli' --> works
 
-#
+# user input :
+input ('Enter name:') # takes everything as string
+# type conversion :
+int('4')
+# int(2+3i) -->not possible in python
+str(5)
+float(4)
+
+
 
