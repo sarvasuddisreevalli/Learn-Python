@@ -20,3 +20,24 @@ print({'Name':'Siri','Age':19,'Course':'BTech'}) # dictionary
 type({2}) # func that detects data type
 
 # variables
+name = 'sreevalli'
+a = 10
+b = 9
+print(name,a+b)
+# dynamic typing
+a = 5
+# static typing
+# int c = 5
+# dynamic binding - in python
+x = 5
+print(x)
+x = 'siri'
+print(x) # no fixed datatype 
+# static binding - in c,cpp,java
+int y = 5
+y = 'siri'
+print(y)
+a,b,c = 1,2,3
+a=b=c = 5
+
+#
