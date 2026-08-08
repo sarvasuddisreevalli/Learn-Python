@@ -2,6 +2,12 @@ NOTE: python is case-sensitive
 
 snippet - small part of code 
 
+compiler - full code to binary
+
+interpreter - line-by-line to binary
+
+compiler fast that interpreter
+
 **Why Python** ?
 
 *Easy to learn, write.
