@@ -8,6 +8,7 @@ interpreter - line-by-line to binary
 
 compiler fast that interpreter
 
+
 **Why Python** ?
 
 *Easy to learn, write.
