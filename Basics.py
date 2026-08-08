@@ -17,3 +17,6 @@ print([1,2,3,4,5]) # list
 print((1,2,3,4,5)) # tuple
 print({1,2,3,4,5}) # set
 print({'Name':'Siri','Age':19,'Course':'BTech'}) # dictionary
+type({2}) # func that detects data type
+
+# variables
