@@ -1,4 +1,5 @@
 NOTE: python is case-sensitive
+snippet - small part of code 
 
 **Why Python** ?
 
