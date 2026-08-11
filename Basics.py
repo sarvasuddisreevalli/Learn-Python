@@ -93,11 +93,34 @@ a = 1 # integer
 
 # user input :
 input ('Enter name:') # takes everything as string
+int (input('Enter a val')) # takes input stores as integer
 # type conversion :
 int('4')
 # int(2+3i) -->not possible in python
 str(5)
 float(4)
+
+# Literals
+a = 0b1010 # binary literal
+b = 100 # decimal literal
+c = 0o310 # octal literal
+d = 0x12c # hexadecimal literal
+# float literals
+float_1 = 1.5
+float_2 = 1.5e2
+float_3 = 1.5e-3
+#complex literal 
+g = 3.14j
+print(g.real,g.imag)
+
+string1 = 'This is a valid string'
+string2 = "This is a valid string"
+multiline_str = """This is a multiline string with more than one line of code""" # allows multiple lines as single string
+unicode = u"\U0001f600\U0001F606\U0001F923" # output : 3 emoji's with that unicode
+raw_str = r"raw \n string" # output : raw \n string instead of raw string
+
+
+
 
 
 
