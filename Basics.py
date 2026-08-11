@@ -115,10 +115,20 @@ print(g.real,g.imag)
 
 string1 = 'This is a valid string'
 string2 = "This is a valid string"
+char = "C"
 multiline_str = """This is a multiline string with more than one line of code""" # allows multiple lines as single string
 unicode = u"\U0001f600\U0001F606\U0001F923" # output : 3 emoji's with that unicode
 raw_str = r"raw \n string" # output : raw \n string instead of raw string
 
+a = True+4
+b = False+10
+print(a,b)
+
+# Null literal
+a = None
+print(a)
+# used only for variable declaration like in c we use like (int a;)
+# In python we can declare a variable with a value or None
 
 
 
