@@ -21,6 +21,7 @@ type({2}) # func that detects data type
 
 # variables :
 name = 'sreevalli'
+print(f"I'm {name}")
 a = 10
 b = 9
 print(name,a+b)
