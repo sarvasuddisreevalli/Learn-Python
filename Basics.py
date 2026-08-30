@@ -19,6 +19,21 @@ print({1,2,3,4,5}) # set
 print({'Name':'Siri','Age':19,'Course':'BTech'}) # dictionary
 type({2}) # func that detects data type
 
+# user input :
+input ('Enter name:') # takes everything as string
+int (input('Enter a val')) # takes input stores as integer
+name = input("Enter your name") # stores input in name variable
+age = input("Enter your age") # takes input as string by default
+
+# type conversion :
+print(type(age)) #output: string
+age = int(age)
+print(type(age)) #output: integer
+int('4')
+# int(2+3i) -->not possible in python
+str(5)
+float(4)
+
 # variables :
 name = 'sreevalli'
 print(f"I'm {name}")
@@ -91,15 +106,6 @@ a = 1 # integer
 # first-name = 'siri' --> wrong using -,@,#
 # first_name = 'siri' --> works
 # _ = 'sreevalli' --> works
-
-# user input :
-input ('Enter name:') # takes everything as string
-int (input('Enter a val')) # takes input stores as integer
-# type conversion :
-int('4')
-# int(2+3i) -->not possible in python
-str(5)
-float(4)
 
 # Literals
 a = 0b1010 # binary literal
