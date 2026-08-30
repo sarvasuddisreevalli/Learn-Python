@@ -66,6 +66,24 @@ while username=="":
 #takes input until user enters their name
 print(f"Hello {username} !")
 
+# for loop
+for i in range(1,11,2): 
+    print(i)
+for j in range(10,0,-1):
+    print(j)
+# first number(inclusive) -> start
+# second number(exclusive) -> end 
+# third number -> increment by
+
+name = 'sreevidya'
+for letter in name:
+    print(letter,end=' ')
+
+# Newyear small task
+for i in range(10,0,-1) :
+    print(i)
+    time.sleep(1) #sleep for 1 sec 
+print("Happy New Year !!!")
 
 
 
