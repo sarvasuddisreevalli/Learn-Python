@@ -124,6 +124,7 @@ raw_str = r"raw \n string" # output : raw \n string instead of raw string
 a = True+4
 b = False+10
 print(a,b)
+# true,false doesn't work only True,False works
 
 # Null literal
 a = None
