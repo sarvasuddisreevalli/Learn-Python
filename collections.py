@@ -1,6 +1,6 @@
 # list[] -> mutable, more flexible
 # tuple() -> immutable, faster
-# set{} -> mutable(add/remove), unordered, no duplicates,best for membership testing
+# set{} -> mutable (add/remove), unordered, no duplicates,best for membership testing
 
 # List[]
 fruits = ['orange','apple','grapes','papaya','orange']
