@@ -99,8 +99,17 @@ print(keyword.kwlist)
 # Random :
 import random
 print(random.randint(1,100))
+print(random.randrange(1,100,2)) #(start,stop,step)
 # Datetime :
 import datetime
 print(datetime.datetime.now())
 
 help('modules')
+
+# while loop with else:
+x = 1
+while x < 3:
+    print(x)
+    x += 1
+else:
+    print('Limit reached')
