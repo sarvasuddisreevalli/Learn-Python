@@ -85,5 +85,22 @@ for i in range(10,0,-1) :
     time.sleep(1) #sleep for 1 sec 
 print("Happy New Year !!!")
 
+# Modules :
+# math, keyword, random, datetime
+# Math:
+import math
+print(math.sqrt(9))
+print(math.factorial(5))
+print(math.log(100))
+print(math.lcm(3,21))
+# Keyword :
+import keyword
+print(keyword.kwlist)
+# Random :
+import random
+print(random.randint(1,100))
+# Datetime :
+import datetime
+print(datetime.datetime.now())
 
-
+help('modules')
